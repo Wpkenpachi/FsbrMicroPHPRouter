@@ -1,6 +1,6 @@
 
 # Explicando Algoritmo de Url amigável
-_A Classe comentada desse alforitmo se encontra [aqui](RouteClass.md)_
+_A Classe comentada desse algoritmo se encontra [aqui](RouteClass.md)_
 
 _E o script dessa classe se encontra [aqui](Route.php)_
 #### Url de Rotas criadas pelo usuário
