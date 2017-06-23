@@ -27,8 +27,8 @@ onde vão ser comparadas as string literais uma por uma:
 > home/{empresa}/profile/{id} `==` home/coca-cola/profile/2 `?` - [ `false` ]
 
 # Segundo Algoritmo de Comparação
-A Não tendo obtido sucesso nessas comparações é chamada outra função pra comparar
-de forma mais detalhada. A `route_tree_keys_comparison()`:
+Não tendo obtido sucesso na primeira comparação é chamada outra função pra comparar
+de forma mais detalhada. O segundo algoritmo de comparação executado pela função `route_tree_keys_comparison()`:
 
 Aqui vamos passar novamente por todas as rotas salvas, pra comparar com  a rota 
 que está no browser, só que dessa vez vamos quebrar tanto a url salva que está sendo testada, quanto a do browser, **ambas
