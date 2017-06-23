@@ -79,9 +79,9 @@ Array
 Url de Rota Salva | Url Atual no Browser | Comparação
 ----------------- | -------------------- | ----------
 home | home | true
-     | coca-cola | false
-     | profile | false
-     | 2 | false
+`empty` | coca-cola | false
+`empty` | profile | false
+`empty` | 2 | false
 
 ## **Rota 'home/settings'**
     Perde ainda na primeira subcomparação, pois tem menos branches
@@ -106,8 +106,8 @@ Url de Rota Salva | Url Atual no Browser | Comparação
 ----------------- | -------------------- | ----------
 home | home | true
 settings | coca-cola | false
-     | profile | false
-     | 2 | false
+`empty` | profile | false
+`empty` | 2 | false
 ## **Rota 'home/{empresa}'**
     No caso dessa rota, ela nao se encaixa logo na primeira
     subcomparação
@@ -130,8 +130,8 @@ Url de Rota Salva | Url Atual no Browser | Comparação
 ----------------- | -------------------- | ----------
 home | home | true
 {empresas} | coca-cola | true
-     | profile | false
-     | 2 | false
+`empty` | profile | false
+`empty` | 2 | false
 ## **Rota 'home/{empresa}/profile/{id}'**
     Url Correta encontrada com mesmo numero de branches,
     e ainda com comparação branch à branch totalmente compatível
