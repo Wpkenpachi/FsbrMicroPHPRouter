@@ -32,7 +32,7 @@ de forma mais detalhada. O segundo algoritmo de comparação executado pela fun�
 
 Aqui vamos passar novamente por todas as rotas salvas, pra comparar com  a rota 
 que está no browser, só que dessa vez vamos quebrar tanto a url salva que está sendo testada, quanto a do browser, **ambas
-em um array**, pra fazermos a comparação branch a branch (galho a galho), ficaria então:
+em um array cada**, pra fazermos a comparação branch a branch (galho a galho), ficaria então:
 
 PS1: A quebra em branches e feita pela '/', pela função `explode()`<br>
 
