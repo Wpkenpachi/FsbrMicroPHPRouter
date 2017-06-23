@@ -17,7 +17,7 @@ _E o script dessa classe se encontra [aqui](Route.php)_
 
 # Primeiro Algoritmo de Comparação
 A primeira comparação feita é em "route_string_comparison()"
-onde vai ser comparada as string literais uma por uma:
+onde vão ser comparadas as string literais uma por uma:
 > home == home/coca-cola/profile/2 `?` - [ `false` ] 
 
 > home/settings `==` home/coca-cola/profile/2 `?` - [ `false` ]
