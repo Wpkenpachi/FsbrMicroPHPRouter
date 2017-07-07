@@ -65,7 +65,7 @@ class Route {
                 $branchs[] = $branch;
             }
         });
-        echo implode('/', $branchs);die();
+        
         return implode('/', $branchs);
     }
 
