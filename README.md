@@ -15,6 +15,12 @@ _E o script dessa classe se encontra [aqui](Route.php)_
 ##### Url atual no browser
 > home/coca-cola/profile/2
 
+# Observação!
+Caso a url esteja vazia, exemplo:
+
+> https://www.meusite.com/ ou https://www.meusite.com \
+  o sistema vai entender que se trata de uma rota chamada root
+
 # Primeiro Algoritmo de Comparação
 A primeira comparação feita é em "route_string_comparison()"
 onde vão ser comparadas as string literais uma por uma:

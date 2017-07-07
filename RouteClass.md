@@ -36,6 +36,12 @@ class Route {
         // ELIMINANDO BARRA inicial '/' da url no browser
         $this->Url_Current = substr($this->Url_Current, 1); 
 
+        // Caso específico: Se a url for vazia, ou seja, a ' www.site.com/ '
+        // Essa url passa a ter o valor de root.
+        if(empty($this->Url_Current)):
+            $this->Url_Current = 'root';
+        endif;
+
         // Obtendo e tratando método da requisição.
 		$this->Request_Method = strtolower($_SERVER['REQUEST_METHOD']);
  
@@ -50,7 +56,8 @@ class Route {
         
     }
 
-    // Quebra Url, e trata possíveis espaços(keys/chaves) em branco gerados pelo explode
+    // Quebra Url, trata possíveis espaços(keys/chaves) em branco gerados pelo explode
+    // e retorna a url tratada, para ser corretamente comparada
     private function treat_url_slashes(&$url_tree_array){
         $array = explode('/', $url_tree_array);
         $branchs = [];
