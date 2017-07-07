@@ -19,7 +19,8 @@ _E o script dessa classe se encontra [aqui](Route.php)_
 Caso a url esteja vazia, exemplo:
 
 > https://www.meusite.com/ ou https://www.meusite.com \
-  o sistema vai entender que se trata de uma rota chamada root
+  o sistema vai entender que se trata de uma rota chamada root \
+  obviamente, você sempre deve criar a rota 'root' em seu arquivo de rotas
 
 # Primeiro Algoritmo de Comparação
 A primeira comparação feita é em "route_string_comparison()"
